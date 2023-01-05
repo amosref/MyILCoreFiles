@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ILCoreNotPerformedReason",
+  "id": "il-core-not-performed-reason",
+  "title": "IL Core Not PErfomed Reasons",
+  "description": "A list of codes for reasons an observation was not made",
+  "version": "0.10.1",
+  "url": "http://fhir.health.gov.il/cs/il-core-not-performed-reason",
+  "concept": [
+    {
+      "code": "not-preformed-medical-reason",
+      "display": "not preformed medical reason",
+      "definition": "The value is not available because the observation procedure was not performed due to Medical Reason"
+    },
+    {
+      "code": "not-preformed-technical-reason",
+      "display": "not preformed technical reason",
+      "definition": "The value is not available because the observation procedure was not performed due to Technical Reason"
+    },
+    {
+      "code": "not-preformed-equipment-reason",
+      "display": "not preformed equipment reason",
+      "definition": "The value is not available because the observation procedure was not performed due to Equipment Reason"
+    }
+  ],
+  "caseSensitive": false,
+  "experimental": false,
+  "valueSet": "http://fhir.health.gov.il/ValueSet/il-core-not-performed-reason",
+  "count": 3
+}
